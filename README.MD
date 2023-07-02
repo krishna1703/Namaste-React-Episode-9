@@ -35,6 +35,7 @@
 
 - Advantage = readability and reusabiltity and maintainability and more testable
 
+
 # lets talk about the Lazy loading  very imp for optimizing webapp
 - Dynamic bundling , lazy loading,  chunking,  code splitting , Dynamic Bundling , Dynamic import   
 
@@ -43,12 +44,12 @@
 - import{lazy} from "react";
  const component = lazy(()=> import("component's  path") )
 
-  <suspense fallback={< loading />} >
+(  <suspense fallback={< loading />} >
   <Component>
-  </suspense>
+  </suspense>)
 
- # <suspense>
--  <suspense> lets you display a fallback untill its children have finished loading ;
+  -  <suspense>
+     -  <suspense> lets you display a fallback untill its children have finished loading ;
 
 # fallback
 - An alternate ui to render inplace of the actual ui if it has not finished loading any valid react node is accepted though in pratice a fallback is a lightweight placeholder view , such as a (loading spinner) or simmer ui  
