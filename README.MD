@@ -1,6 +1,6 @@
 # Namaste React ❤️
 
-# Episode - 8 Optimizing Our App 🚀
+# Episode - 9  Optimizing Our App 🚀
 
 # planning for the food ordering web app 🍴
 
