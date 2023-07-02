@@ -48,8 +48,8 @@
   <Component>
   </suspense>)
 
-  -  <suspense>
-     -  <suspense> lets you display a fallback untill its children have finished loading ;
+   # suspense
+-   suspense  lets you display a fallback untill its children have finished loading ;
 
 # fallback
 - An alternate ui to render inplace of the actual ui if it has not finished loading any valid react node is accepted though in pratice a fallback is a lightweight placeholder view , such as a (loading spinner) or simmer ui  
